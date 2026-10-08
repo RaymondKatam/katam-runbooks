@@ -1,0 +1,6 @@
+name: hello
+description: Test runbook from Git - waits 5 seconds
+steps:
+  - name: wait
+    action: sleep
+    args: {seconds: 5}
